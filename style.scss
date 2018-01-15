@@ -283,7 +283,7 @@ table, th, td {
    background-color: rgba(51,51,0,0.6) /* Background with 60% opacity */;
 }
 	
-	
-	
+//settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
