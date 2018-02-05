@@ -240,13 +240,21 @@ nav {
 //
 // .main
 //
-.posts > .post {
+  .posts > .post {
+padding: 2px;
+  border: #ff0000;
+  border-radius: 20px;
+  background-color: #ff0000;
+  background: rgba(255,0,0,0.4) /* Red background with 40% opacity */;	
+}
+
+.posts > .post:last-child {
   padding: 2px;
   border: #ff0000;
   border-radius: 20px;
   background-color: #ff0000;
   background: rgba(255,0,0,0.4) /* Red background with 40% opacity */;	
-	
+}
 
 .post, table, th, td {
   blockquote {
@@ -282,6 +290,28 @@ th {
 td {
     height: 50px;
     vertical-align: bottom;
+}
+
+	  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
 }
 
 	
