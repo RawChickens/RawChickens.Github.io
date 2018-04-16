@@ -1,8 +1,8 @@
 ---
-title: Year 8 Blog 2
+title: Fuze Box Week 2
 layout: post
 author: joshua.mroncz
-permalink: /year-8-blog-2/
+permalink: /fuze-box-week-2/
 source-id: 1Df32mLIasWobMZ0wFwVsINuSR98Kc2JpJYP2BwVfBfk
 published: true
 ---
